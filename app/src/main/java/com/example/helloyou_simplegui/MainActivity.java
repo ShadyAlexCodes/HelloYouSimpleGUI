@@ -45,9 +45,11 @@ public class MainActivity extends AppCompatActivity {
      */
 
     /* Event Handler */
-    public void onClick(View view) {
+    public void onSubmission(View view) {
         String firstName;
         String lastName;
         String greeting;
+
+
     }
 }
