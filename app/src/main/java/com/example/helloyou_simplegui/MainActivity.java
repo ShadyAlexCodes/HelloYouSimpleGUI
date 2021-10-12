@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
      *  [x] The second should hint for the user's last name
      *  [x] The third one will be used for output
      *  [x] Add a button widget with an event handler
-     *  [] When the button is pressed, the following should happen:
+     *  [x] When the button is pressed, the following should happen:
      *      [x] The text from the first name box should be put in a string variable called 'firstName'
      *      [x] The text from the last name box should be put in a string variable called 'lastName'
      *      [x] A new string variable called 'greeting' should be created
