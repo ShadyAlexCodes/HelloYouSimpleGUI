@@ -12,7 +12,7 @@ import android.widget.TextView;
 /**
  * @author Xander Endre
  * @name Hello, You! Simple GUI Activity
- * @project_description Console output is an important tool to have as a developer that uses a console/text interface. Most applications we deal with daily use some form of a Graphical User Interface or GUI. This means it has its images, buttons, windows, and many of the features we associate with a typical app or program. In this exercise, we will build our first, simple GUI.
+ * @project_description Create a simple GUI that utilizes user input. It requests a First Name and Last Name to print them into an output box
  * @date 12 October 2021
  * @class CSC110
  */
@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-
 
     /*
      * TODO LIST:
@@ -62,19 +61,20 @@ public class MainActivity extends AppCompatActivity {
         // Store the EditText into a String by grabbing its text and converting it into a string.
         String lastName = etLastName.getText().toString();
         // Print the stringified version of the input
-        System.out.println(lastName);
+        System.out.println("Last Name: " + lastName);
 
         // Define a string to store the greeting by concatenation the first and last name.
         String greeting = "Hello, " + firstName + " " + lastName;
         // Print the gretting for testing purposes
-        System.out.println(greeting);
+        System.out.println("Greeting: " + greeting);
+
+
+        // Was given approval by Professor Cantera to utilize a TextView instead of EditText.
 
         // Grab the output box ID
         TextView tvOutput = (TextView) findViewById(R.id.tvOutput);
         // Set it's text value to be equal to the greeting value.
         tvOutput.setText(greeting);
-
-
 
     }
 }
