@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
      * TODO LIST:
      *  [x] Create a new project in Android Studio
      *  [x] Choose an Empty Activity
-     *  [] Add three Plain Text (EditText) widgets to your layout
+     *  [x] Add three Plain Text (EditText) widgets to your layout
      *  [] The first should hint for the user's first name
      *  [] The second should hint for the user's last name
      *  [] The third one will be used for output
