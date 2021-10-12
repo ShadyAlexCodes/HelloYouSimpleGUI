@@ -32,10 +32,10 @@ public class MainActivity extends AppCompatActivity {
      *  [x] Create a new project in Android Studio
      *  [x] Choose an Empty Activity
      *  [x] Add three Plain Text (EditText) widgets to your layout
-     *  [] The first should hint for the user's first name
-     *  [] The second should hint for the user's last name
-     *  [] The third one will be used for output
-     *  [] Add a button widget with an event handler
+     *  [x] The first should hint for the user's first name
+     *  [x] The second should hint for the user's last name
+     *  [x] The third one will be used for output
+     *  [x] Add a button widget with an event handler
      *  [] When the button is pressed, the following should happen:
      *      [] The text from the first name box should be put in a string variable called 'firstName'
      *      [] The text from the last name box should be put in a string variable called 'lastName'
@@ -46,6 +46,8 @@ public class MainActivity extends AppCompatActivity {
 
     /* Event Handler */
     public void onClick(View view) {
-        System.out.println("Hello!");
+        String firstName;
+        String lastName;
+        String greeting;
     }
 }
